@@ -10,6 +10,8 @@ group :development, :test do
 	gem 'rspec-rails', '2.11.0'
 end
 
+gem 'rb-readline', '0.4.2'
+
 group :assets do
 # Use SCSS for stylesheets
     gem 'sass-rails', '3.2.5'
@@ -33,6 +35,7 @@ end
 group :production do
 	gem 'pg', '0.12.2'
 end
+
 
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
